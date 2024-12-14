@@ -13,7 +13,7 @@ services:
       - laravel
 
   db:
-    image: postgres:15
+    image: postgres:17
     container_name: laravel_db
     ports:
       - "5432:5432"
